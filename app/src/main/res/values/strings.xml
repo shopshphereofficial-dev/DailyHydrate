@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DailyHydrate</string>
+    <string name="tagline">Water Tracker</string>
+    <string name="todays_log">Today\u2019s Log</string>
+    <string name="reset">Reset</string>
+    <string name="custom_add">Custom Add</string>
+    <string name="add_water">Add Water</string>
+    <string name="empty_state">No water logged yet today.\nTap a button above to get started.</string>
+    <string name="goal_label">Daily Goal</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="reset_title">Reset today\u2019s log?</string>
+    <string name="reset_message">This clears every entry recorded today. It can\u2019t be undone.</string>
+    <string name="custom_amount_label">Amount (ml)</string>
+    <string name="goal_amount_label">Daily goal (ml)</string>
+</resources>

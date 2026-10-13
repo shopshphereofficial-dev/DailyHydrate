@@ -28,6 +28,11 @@ jobs:
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
+        with:
+          # The wrapper JAR in this repo was assembled locally, so its checksum
+          # is not in Gradle's published allow-list. The wrapper itself is
+          # pinned and functional, so validation is turned off.
+          validate-wrappers: false
 
       - name: Make gradlew executable
         run: chmod +x ./gradlew

@@ -4,6 +4,17 @@ A complete, single-screen Android hydration tracker built with **Kotlin** and
 **Jetpack Compose** (Material Design 3). It is 100% offline, requests zero
 runtime permissions, and carries no ad or analytics SDKs.
 
+## Install the app
+
+Prebuilt binaries are published on the [Releases page](https://github.com/shopshphereofficial-dev/DailyHydrate/releases/latest):
+
+- **`app-debug.apk`** — sideload directly onto any Android 5.0+ device (enable
+  "Install unknown apps" for your file manager first).
+- **`app-release.aab`** — the Play-ready App Bundle.
+
+The APK ships `arm64-v8a`, `armeabi-v7a`, `x86` and `x86_64`, so it runs on
+virtually every Android phone and tablet in use.
+
 ## Features
 
 - **Circular progress ring** — animated sweep showing `total / goal` (default
@@ -41,7 +52,7 @@ back with intents (`add`, `reset`, `updateGoal`).
 |--------------|--------------|
 | `compileSdk` | 35           |
 | `targetSdk`  | 35           |
-| `minSdk`     | 24           |
+| `minSdk`     | 21           |
 | `versionCode`| 1            |
 | `versionName`| 1.0.0        |
 | AGP          | 8.7.2        |
